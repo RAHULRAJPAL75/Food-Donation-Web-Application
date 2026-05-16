@@ -75,14 +75,7 @@ public class FoodRequest {
 
     private LocalDateTime requestDate;
 
-    public FoodRequest(String status, String requestId, String donationId, String receiverId, String pickupTime, LocalDateTime requestDate) {
-        this.status = status;
-        this.requestId = requestId;
-        this.donationId = donationId;
-        this.receiverId = receiverId;
-        this.pickupTime = pickupTime;
-        this.requestDate = requestDate;
-    }
+
 
 
 

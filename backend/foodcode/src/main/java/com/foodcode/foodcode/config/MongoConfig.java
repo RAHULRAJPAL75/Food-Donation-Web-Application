@@ -16,10 +16,5 @@ public class MongoConfig {
         return "foodcode";   // 🔥 THIS FIXES YOUR ISSUE
     }
 
-    @Bean
-    public MongoClient mongoClient() {
-        return MongoClients.create(
-                ""
-        );
-    }
+
 }
